@@ -31,14 +31,41 @@ A simple Flask web application to upload Excel files and search for any value ac
 
 ## Usage
 
-1. **Install dependencies:**
+## Installation & Running
+
+1. **Create a virtual environment:**
     ```
-    pip install flask pandas werkzeug
+    python -m venv env
     ```
 
-2. **Run the app:**
+2. **Activate the virtual environment:**
+    ```
+    env\Scripts\activate
+    ```
+
+3. **Install required packages:**
+    ```
+    pip install flask pandas openpyxl
+    ```
+
+4. **Save dependencies:**
+    ```
+    pip freeze > requirements.txt
+    ```
+
+5. **(Optional) Install dependencies from requirements.txt:**
+    ```
+    pip install -r requirements.txt
+    ```
+
+6. **Run the Flask app:**
     ```
     python app.py
+    ```
+
+7. **Open your browser and go to:**
+    ```
+    http://127.0.0.1:5000/
     ```
 
 3. **Open your browser:**  
