@@ -96,7 +96,7 @@ excel_search_app/
 - Python 3.x
 - Flask
 - pandas
-- Werkzeug
+- openpyxl
 
 ---
 
